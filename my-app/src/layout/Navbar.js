@@ -3,6 +3,17 @@ import React, {Component} from "react";
 
 
 class Navbar extends Component {
+    //adding default props
+     static defaultProps = {
+         title : "Github Finder",
+         icon: "fab fa-github"
+     };
+
+    // adding props types for Title and icon
+    static propTypes = {
+        title: PropTypes.string.isRequired,
+        icon : PropTypes.string.isRequired
+    }
     render() {
         return (
             <nav className="navbar bg-primary">
@@ -15,4 +26,5 @@ class Navbar extends Component {
         );
     }
 }
+
 export default Navbar;
