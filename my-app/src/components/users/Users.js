@@ -40,7 +40,7 @@ class Users extends Component {
 }
 
 const userStyle = {
-        display:'grid',
-        gridTemplateColumns:'repeat(3,1fr)',
-        gridGap: '1rem'
+    display: 'grid',
+    gridTemplateColumns: 'repeat(3,1fr)',
+    gridGap: '1rem'
 }
