@@ -1,4 +1,5 @@
-import React, from "react";
+import React from "react";
+import * as PropTypes from "prop-types";
 
 const Navbar = (props) => {
     return (
@@ -12,7 +13,7 @@ const Navbar = (props) => {
     );
 }
 
-//Intsead of using static we will put the name of the component which is Navbar
+//Instead of using static we will put the name of the component which is Navbar
 Navbar.defaultProps = {
     title: "Github Finder",
     icon: "fab fa-github"
